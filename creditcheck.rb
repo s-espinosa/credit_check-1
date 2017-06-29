@@ -10,11 +10,8 @@ class Checker
 
   def validation
     str_ary = i_to_s_array(number)
-    puts str_ary.inspect
     man_ary = manipulation(str_ary)
-    puts man_ary.inspect
     test = sum_integers(man_ary)
-    puts test
     check_validity(test)
     message
   end
